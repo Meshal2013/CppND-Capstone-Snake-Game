@@ -1,10 +1,6 @@
 # CPPND: Capstone Snake Game Example
 
-This is the Snake Game project with extension level of dificulty.
-
-<img src="Screenshot.png"/>
-
-The number of levels of difficulty added was 3 and I used concepts of OOP like polymorphism and inheritance e.g.
+This is the Snake Game project with extension level of dificulty. The number of levels of difficulty added was 2 and I used concepts of OOP like polymorphism and inheritance e.g.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -28,17 +24,13 @@ The number of levels of difficulty added was 3 and I used concepts of OOP like p
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-## Class Structure
 
-<img src="UML.vpd.png"/>
-
-New classes were created, each class to correspond to each level.
 
 ## Rubric Point
 
 - The project demonstrates an understanding of C++ functions and control structures
  
-   In main.cpp, rendererZero.cpp, rendererOne.cpp, rendererTwo.cpp has a IF's to manager collision e.g;
+   In main.cpp, rendererLevel1.cpp, rendererLevel2.cpp  e.g;
    
 - The project accepts user input and processes the input.
 
@@ -46,11 +38,11 @@ New classes were created, each class to correspond to each level.
    
 - The project uses Object Oriented Programming techniques
 
-   Add new classes rendererBase.cpp, rendererZero.cpp, rendererOne.cpp, rendererTwo.cpp.
+   Add new classes renderer.cpp, rendererLevel1.cpp, rendererLevel2.cpp, renderer.cpp.
    
 - Classes use appropriate access specifiers for class members
 
-  In files *.h, rendererBase, rendererZero, rendererOne, rendererTwo
+  In files *.h, renderer, rendererLevel1, rendererLevel2.
   
 - Class constructors utilize member initialization lists
 
@@ -62,12 +54,12 @@ New classes were created, each class to correspond to each level.
   
 - Classes follow an appropriate inheritance hierarchy
 
-  Heritance from Class rendererBase with virtual method implemented in child classes
+  Heritance from Class renderer with virtual method implemented in child classes
   
 - Derived class functions override virtual base class functions
 
-  Virtual classes implemented in rendererZer0, rendererOne, rendererTwo classes
+  Virtual classes implemented in rendererLevel1, rendererLevel2 classes
   
 - The project makes use of references in function declarations
 
-  In classes rendererZero, rendererOne, rendererTwo in render function parameters
+  In classes rendererLevel1, rendererLevel2 in render function parameters
